@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- @BeforeSuite -->
+<suite name="TestNG session AutomationSuite for parameter">
+<test name = "Google paramter url and id"></test>
+<parameter name ="url" value ="https://www.google.com"> </parameter>
+<parameter name ="env" value ="QA"> </parameter>
+<parameter name ="browser" value ="chrome"> </parameter>
+
+
+
+	<!-- @BeforeTest -->
+	<test name="caseParameter">
+	  <classes>
+		<class name="testNG_Concepts.ParameterTest" />	
+	  </classes>
+	</test>
+	<!-- @AfterTest -->
+</suite>

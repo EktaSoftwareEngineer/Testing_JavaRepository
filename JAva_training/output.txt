@@ -1,0 +1,10 @@
+Hello 
+
+This is file is for the java file input out put 
+if you see no file then you will get the Exception 
+Exception in thread "main" java.io.FileNotFoundException: input.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at CopyFile.main(CopyFile.java:10)

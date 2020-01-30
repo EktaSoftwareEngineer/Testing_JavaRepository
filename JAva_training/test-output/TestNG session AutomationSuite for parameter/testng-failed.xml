@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG session AutomationSuite for parameter]">
+  <parameter name="url" value="https://www.google.com"/>
+  <test thread-count="5" name="caseParameter(failed)">
+    <classes>
+      <class name="testNG_Concepts.ParameterTest">
+        <methods>
+          <include name="GoolgeLoginTest"/>
+        </methods>
+      </class> <!-- testNG_Concepts.ParameterTest -->
+    </classes>
+  </test> <!-- caseParameter(failed) -->
+</suite> <!-- Failed suite [TestNG session AutomationSuite for parameter] -->
